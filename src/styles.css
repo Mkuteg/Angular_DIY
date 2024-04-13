@@ -1,1 +1,232 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  /* Product List Styles */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Product Detail Styles */
+  .product-detail {
+    padding: 20px;
+  }
+  
+  .product-detail img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* User Profile Styles */
+  .user-profile {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user-profile img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .user-stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .user-stats p {
+    margin-right: 20px;
+  }
+  
+  /* Search Bar Styles */
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-right: none;
+    width: 300px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+  }
+  /* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Home Page Styles */
+.home {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.home .btn {
+  display: inline-block;
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Shop Page Styles */
+.shop {
+  padding: 20px;
+}
+
+/* Seller Dashboard Styles */
+.seller-dashboard {
+  padding: 20px;
+}
+
+/* Contact Page Styles */
+.contact {
+  padding: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search-bar input {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-list {
+    grid-template-columns: 1fr;
+  }
+
+  .search-bar input {
+    width: 150px;
+  }
+}
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Home Page Styles */
+  .home {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .home .btn {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  /* Shop Page Styles */
+  .shop {
+    padding: 20px;
+  }
+  
+  /* Seller Dashboard Styles */
+  .seller-dashboard {
+    padding: 20px;
+  }
+  
+  /* Contact Page Styles */
+  .contact {
+    padding: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .product-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .search-bar input {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-list {
+      grid-template-columns: 1fr;
+    }
+  
+    .search-bar input {
+      width: 150px;
+    }
+  }

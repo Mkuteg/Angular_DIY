@@ -1,0 +1,11 @@
+<div class="user-profile">
+    <img [src]="user.avatarUrl" [alt]="user.username">
+    <h2>{{ user.username }}</h2>
+    <p>{{ user.bio }}</p>
+    <p>Joined: {{ user.joinedAt }}</p>
+    <div class="user-stats">
+      <p>Products: {{ user.products.length }}</p>
+      <p>Followers: {{ user.followers.length }}</p>
+      <p>Following: {{ user.following.length }}</p>
+    </div>
+  </div>
