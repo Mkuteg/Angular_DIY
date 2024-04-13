@@ -33,7 +33,8 @@ import { routes } from './app.routes';
     ReactiveFormsModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: []
 })
 export class AppModule { }
+
+export class ContactModule {}
